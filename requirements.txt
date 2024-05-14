@@ -1,0 +1,11 @@
+
+numpy==1.21.4
+streamlit==1.2.0
+pickle-mixin==1.0.2
+google==3.0.0
+python-whois
+tld==0.13
+lightgbm
+scikit-learn
+wordcloud
+pandas
