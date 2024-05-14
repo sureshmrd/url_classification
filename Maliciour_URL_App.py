@@ -285,7 +285,7 @@ def tld_length(tld):
 def main():
     
 
-    image = cv2.imread("C:/Users/Suresh/Desktop/LOGO2.png")
+    image = cv2.imread("LOGO2.png")
     st.image(image,use_column_width=True,channels='BGR')#use_column_width=True
     
     #st.markdown("<h1 style='text-align: left; color: white ; margin-top:0px; '>&ensp; MALICIOUS URL DETECTION  AND &ensp;&emsp; &emsp;&ensp;&ensp; CLASSIFICATION</h1>", unsafe_allow_html=True)
