@@ -439,21 +439,7 @@ def main():
         st.write(" ")
         st.markdown("<h2 style='color:#FFFFCC; text-align:center;'>CLASSIFICATION TABLE</h2>", unsafe_allow_html=True)
         st.write(f'<div style="display:flex">{html_table1}<div style="margin-left:60px"></div>{html_table2}</div>', unsafe_allow_html=True)
-        data = [
-        {"Name": "K.ANVESH REDDY", "RegisterNumber": "20B81A0587"},
-        {"Name": "K.MAHENDRA REDDY", "RegisterNumber": "20B81A0588"},
-        {"Name": "K.RAMYA CHANDRIKA", "RegisterNumber": "20B81A0589"},
-        {"Name": "M.VAMSI BABU", "RegisterNumber": "20B81A0590"},
-        {"Name": "M.R.D.SURESH", "RegisterNumber": "20B81A0591"}
-    ]
-        st.markdown("<h4 style='color:#FFFFCC; text-align:left;'>About Us!</h4>", unsafe_allow_html=True)
-        st.write('**Branch** : **Computer Science and Engineering**')
-        st.write("**Section**:**B** & **Batch**:**5**")
-        html_table = "<table><tr><th>Name</th><th>RegisterNumber</th></tr>"
-        for item in data:
-            html_table += f"<tr><td>{item['Name']}</td><td>{item['RegisterNumber']}</td></tr>"
-        html_table += "</table>"
-        st.write(html_table, unsafe_allow_html=True)
+       
         
         
         
@@ -463,21 +449,7 @@ def main():
         st.write(" ")
         st.markdown("<h2 style='color:#FFFFCC; text-align:center;'>CLASSIFICATION TABLE</h2>", unsafe_allow_html=True)
         st.write(f'<div style="display:flex">{html_table1}<div style="margin-left:60px"></div>{html_table2}</div>', unsafe_allow_html=True)
-        data = [
-        {"Name": "K.ANVESH REDDY", "RegisterNumber": "20B81A0587"},
-        {"Name": "K.MAHENDRA REDDY", "RegisterNumber": "20B81A0588"},
-        {"Name": "K.RAMYA CHANDRIKA", "RegisterNumber": "20B81A0589"},
-        {"Name": "M.VAMSI BABU", "RegisterNumber": "20B81A0590"},
-        {"Name": "M.R.D.SURESH", "RegisterNumber": "20B81A0591"}
-    ]
-        st.markdown("<h4 style='color:#FFFFCC; text-align:left;'>About Us!</h4>", unsafe_allow_html=True)
-        st.write('**Branch** : **Computer Science and Engineering**')
-        st.write("**Section**:**B** & **Batch**:**5**")
-        html_table = "<table><tr><th>Name</th><th>RegisterNumber</th></tr>"
-        for item in data:
-            html_table += f"<tr><td>{item['Name']}</td><td>{item['RegisterNumber']}</td></tr>"
-        html_table += "</table>"
-        st.write(html_table, unsafe_allow_html=True)
+        
         
        
     elif result=="PHISHING":
@@ -487,21 +459,7 @@ def main():
         st.markdown("<h2 style='color:#FFFFCC; text-align:center;'>CLASSIFICATION TABLE</h2>", unsafe_allow_html=True)
         
         st.write(f'<div style="display:flex">{html_table1}<div style="margin:auto"></div>{html_table2}</div>', unsafe_allow_html=True)
-        data = [
-        {"Name": "K.ANVESH REDDY", "RegisterNumber": "20B81A0587"},
-        {"Name": "K.MAHENDRA REDDY", "RegisterNumber": "20B81A0588"},
-        {"Name": "K.RAMYA CHANDRIKA", "RegisterNumber": "20B81A0589"},
-        {"Name": "M.VAMSI BABU", "RegisterNumber": "20B81A0590"},
-        {"Name": "M.R.D.SURESH", "RegisterNumber": "20B81A0591"}
-    ]
-        st.markdown("<h4 style='color:#FFFFCC; text-align:left;'>About Us!</h4>", unsafe_allow_html=True)
-        st.write('**Branch** : **Computer Science and Engineering**')
-        st.write("**Section**:**B** & **Batch**:**5**")
-        html_table = "<table><tr><th>Name</th><th>RegisterNumber</th></tr>"
-        for item in data:
-            html_table += f"<tr><td>{item['Name']}</td><td>{item['RegisterNumber']}</td></tr>"
-        html_table += "</table>"
-        st.write(html_table, unsafe_allow_html=True)
+
     
 
    
